@@ -1,0 +1,4 @@
+# Cross-compilation from Linux to Windows (GNU ABI).
+# Native Windows builds (MSVC or GNU) need no special config.
+[target.x86_64-pc-windows-gnu]
+linker = "x86_64-w64-mingw32-gcc"
